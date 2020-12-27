@@ -1,0 +1,36 @@
+NAME: Jeannie Chiem
+EMAIL: gnyorly@gmail.com
+ID: 504666652
+
+README
+
+Contents: lab3b.py, Makefile, README
+
+lab3b
+This program will read through a CSV data of a file system and analyze its contents
+to find errors.The program will log info regarding invalid, unreferenced, misallocated, 
+duplicate, or reserved blocks as well as inode allocation and links.
+
+Usage:
+
+	python3 lab3b.py [filename]
+
+filename - (required) the CSV file to be analyzed by lab3b.py
+
+
+lab3b.py
+This contains the source code of the program written in python.
+In order to compile with python on the linux server, you must set the path as shown:
+PATH=/usr/local/cs/bin
+
+
+Makefile
+This completes all the necessary steps to compile the program into a distributable form as well as other tasks such as checking or removing the program.
+make dist - this will create a tarball of the program
+make clean - this will return the program to its untared state
+
+	
+Citation
+I used the following websites for examples and guides to help with this project.
+https://www.gnu.org/
+https://docs.python.org/2/library/csv.html

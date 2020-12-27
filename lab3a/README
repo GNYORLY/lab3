@@ -1,0 +1,31 @@
+
+README
+
+Contents: lab3a.c, Makefile, README
+
+lab3a
+
+This program will read a file system and summarize its contents in CSV
+format. 
+
+USAGE
+
+	./lab3a [diskname]
+
+diskname - required, name of the input file system
+
+lab3a.c
+This contains the source code of the program.
+
+Makefile
+This completes all the necessary steps to compile the program into a distributable form as well as other tasks such as checking or removing the program.
+
+Makefile Options
+Using make on its own will just compile the lab4b program.
+  dist: using make dist will create a tarball containing the lab4b program files
+  clean: using make clean will remove all files previously created using this makefile and return it to its untared state
+
+
+
+
+
